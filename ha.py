@@ -22,7 +22,7 @@ page = option_menu(
 #First Page
 if page == "Home":
     #Title
-    st.title("Insurance Charges Variation")
+    st.markdown("## Insurance Charges Variation")
     #Image
     st.image('https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2022/04/how_much_is_health_insurance.jpg')
     st.subheader("Jana El Oud")

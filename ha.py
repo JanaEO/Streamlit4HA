@@ -42,7 +42,7 @@ if page == "Dataset":
         st.write(bytes_data)
 
     st.write("The dataframe shows the insurance charges across different regions of the United States.")
-    st.write("The dataframe shows the insurance fees for each client along with his/her demographics such as age, sex, bmi, number of children, smoking status, and region.")
+    st.write("It includes the insurance fees for each client along with his/her demographics such as age, sex, bmi, number of children, smoking status, and region.")
     st.write("This dataset will be used to study how different variables affect the insurance fees set by an insurance company to a client.")
 
 #Third Page: Visualizations

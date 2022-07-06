@@ -29,7 +29,7 @@ if page == "Home":
     with col2:
         #Image
          st.image('https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2022/04/how_much_is_health_insurance.jpg')
-         st.subheader("Jana El Oud")
+         st.write("Jana El Oud")
 #Second Page
 if page == "Dataset":
     # Display details of page 1

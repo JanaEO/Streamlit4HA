@@ -23,9 +23,13 @@ page = option_menu(
 if page == "Home":
     #Title
     st.markdown("## Insurance Charges Variation")
-    #Image
-    st.image('https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2022/04/how_much_is_health_insurance.jpg')
-    st.subheader("Jana El Oud")
+    col1, col2 = st.columns(2)
+    with col1:
+        st.write("This Project shows how different factors affect insurance charges in the United States.")
+    with col2:
+        #Image
+         st.image('https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2022/04/how_much_is_health_insurance.jpg')
+         st.subheader("Jana El Oud")
 #Second Page
 if page == "Dataset":
     # Display details of page 1

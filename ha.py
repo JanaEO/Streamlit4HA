@@ -25,6 +25,7 @@ if page == "Home":
     st.markdown("## Insurance Charges Variation")
     col1, col2 = st.columns(2)
     with col1:
+        st.write(""The United States spends more money on health care for Americans aged 65 years and older than is spent for the entire population of any other nation."")
         st.write("This Project shows how different factors affect insurance charges in the United States.")
     with col2:
         #Image
